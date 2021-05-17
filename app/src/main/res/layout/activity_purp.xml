@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <ImageView
+        android:id="@+id/topBanner"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/top" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Amazing Person!!!"
+        android:textColor="#4987D0"
+        android:layout_margin="4dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="16dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/PhoneDirectoryBtn"
+            android:text="Create Phone Directory"
+            android:backgroundTint="#4987D0"
+            android:layout_margin="3dp"
+            android:fontFamily="@font/poppins_bold"/>
+
+        <Button
+            android:id="@+id/myth_button"
+            android:layout_width="150dp"
+
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="3dp"
+            android:backgroundTint="#4987D0"
+            android:text="General Info"
+            android:fontFamily="@font/poppins_bold"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#CB4335"
+            android:text="Emergency"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20dp"
+            android:id="@+id/emergencybtn"
+            android:layout_below="@id/PhoneDirectoryBtn"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#B3F3F6"
+            android:textColor="#025A5E"
+            android:text="Self-Care"
+            android:textSize="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/selfcarebtn"
+            android:layout_below="@id/emergencybtn"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/colorTotalConfirmed"
+            android:text="Covid Zone"
+            android:textSize="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/covidpurpbtn"
+            android:layout_below="@id/selfcarebtn"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#4AEE06"
+
+            android:textColor="#133803"
+
+            android:text="Fitness Corner"
+            android:textSize="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/fitnesscorner"
+            android:layout_below="@id/covidpurpbtn"/>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+</ScrollView>

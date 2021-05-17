@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/videoview"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+
+            />
+    </FrameLayout>
+
+
+    <ListView
+        android:layout_marginTop="15dp"
+        android:id="@+id/lvideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView"
+
+        android:background="#B3F3F6"
+        android:textColor="#025A5E"
+        android:padding="25dp"
+
+
+        >
+
+    </ListView>
+
+
+</RelativeLayout>

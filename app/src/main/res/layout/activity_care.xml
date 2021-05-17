@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/routineId"
+        android:text="Check out your Self care routine"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="16dp"
+        android:background="#B3F3F6"
+        android:textColor="#025A5E"
+        android:textStyle="italic"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/selfexTV"
+        android:text="Wanna do some self Care Exercise?"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="16dp"
+        android:background="#B3F3F6"
+        android:textColor="#025A5E"
+        android:textStyle="italic"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/writeself"
+        android:text="Write your heart out!"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="16dp"
+        android:background="#B3F3F6"
+        android:textColor="#025A5E"
+        android:textStyle="italic"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/meditateself"
+        android:text="Meditate with us"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="16dp"
+        android:background="#B3F3F6"
+        android:textColor="#025A5E"
+        android:textStyle="italic"
+        android:layout_margin="15dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/self"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">WeCare</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="Exercise">
+        <item>Exercise 1</item>
+        <item>Exercise 2</item>
+        <item>Exercise 3</item>
+        <item>Exercise 4</item>
+        <item>Exercise 5</item>
+    </string-array>
+
+
+    <string-array name="Diet">
+        <item>Day 1</item>
+        <item>Day 2</item>
+        <item>Day 3</item>
+        <item>Day 4</item>
+        <item>Day 5</item>
+        <item>Day 6</item>
+        <item>Day 7</item>
+    </string-array>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_country">Country</string>
+
+</resources>

@@ -1,0 +1,61 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Take screenshots and try by your own"
+
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="16dp"
+        android:background="#B3F3F6"
+        android:textColor="#025A5E"
+        android:textStyle="italic"
+        android:layout_margin="15dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerexercise"
+        android:layout_marginBottom="8dp"
+        android:padding="5dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Exercise"
+        android:backgroundTint="#B3F3F6"
+        android:textColor="#025A5E"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp"
+        android:id="@+id/ex_btn"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Scroll Up"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="16dp"
+        android:background="#B3F3F6"
+        android:textColor="#025A5E"
+        android:textStyle="italic"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:id="@+id/eximg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/ex1" />
+
+</LinearLayout>
+</ScrollView>

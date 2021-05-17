@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1C1C1"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="221dp"
+        android:src="@drawable/covid"
+        android:layout_marginBottom="50dp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/trackerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="15dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="Covid Tracker"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/mendId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="Covid Mends"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="221dp"
+        android:src="@drawable/symptoms"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
